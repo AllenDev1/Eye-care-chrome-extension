@@ -3,20 +3,21 @@
 	"name": "Eye Break Reminder",
 	"version": "1.0",
 	"description": "Reminds you to take breaks for your eyes.",
-	"permissions": ["alarms"],
+	"permissions": ["alarms", "activeTab"],
 	"action": {
 		"default_popup": "popup.html",
 		"default_icon": {
-			"16": "images/icon16.png",
-			"48": "images/icon48.png",
-			"128": "images/icon128.png"
+			"16": "images/Corner-Watercolor-Flower-PNG-Image.png",
+			"48": "images/Corner-Watercolor-Flower-PNG-Image.png",
+			"128": "images/Corner-Watercolor-Flower-PNG-Image.png"
 		}
 	},
 	"icons": {
-		"16": "images/icon16.png",
-		"48": "images/icon48.png",
-		"128": "images/icon128.png"
+		"16": "images/Corner-Watercolor-Flower-PNG-Image.png",
+		"48": "images/Corner-Watercolor-Flower-PNG-Image.png",
+		"128": "images/Corner-Watercolor-Flower-PNG-Image.png"
 	},
+	"content_security_policy": "script-src 'self' 'unsafe-inline'; object-src 'self'",
 	"background": {
 		"service_worker": "background.js"
 	}
